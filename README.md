@@ -41,13 +41,21 @@ Você verá a mensagem: 🚀 SUT (Ecommerce API) rodando na porta 3000🔌 Endpo
 Recomendamos que você crie seus scripts de teste na pasta tests/. A estrutura do projeto deve ficar assim:
 
 ├── src/
+
 │ └── server.js # Código da API (NÃO ALTERAR)
+
 ├── package.json
+
 ├── README.md
+
 └── tests/ # Crie seus scripts k6 aqui
+
 ├── smoke.js
+
 ├── load.js
+
 ├── stress.js
+
 └── spike.js
 
 ⚠️ Aviso ImportanteEsta aplicação foi desenhada para fins didáticos. O código contém ineficiências propositais para facilitar a visualização de gargalos durante os testes de desempenho. Não utilize este código como referência para aplicações em produção.
